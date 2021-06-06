@@ -16,7 +16,7 @@ define('DTTL_THEME_URL_ICON', get_template_directory_uri() . '/icons');
 //         return $post_link;
 //     }
 //     if('product' == $post->post_type){
-//         $post_link = str_replace( '/product/', '/', $post_link ); //Thay cua-hang bằng slug hiện tại của bạn
+//         $post_link = str_replace( '/san-pham /', '/', $post_link ); //Thay cua-hang bằng slug hiện tại của bạn
 //     }else{
 //         $post_link = str_replace( '/' . $post->post_type . '/', '/', $post_link );
 //     }
