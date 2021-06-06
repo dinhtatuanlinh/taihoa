@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header <?php if(!is_home()){echo 'active';} ?>">
     <div class="container">
         <div class="row ">
             <div class="header__wrap">
