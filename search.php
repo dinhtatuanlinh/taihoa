@@ -11,16 +11,17 @@ $args = array(
             );
     // The Query
 $the_query = new WP_Query( $args );
-if ( $the_query->have_posts() ) {
-        _e("<h2 style='font-weight:bold;color:#000'>Search Results for: ".get_query_var('s')."</h2>");
+
         
                  ?>
-<main class="product-detail search-page">
+<main class="search-page">
     <div class="container">
         <div class="wrapper">
             <div class="row">
                 <section class="col-lg-12 ">
                     <div class="result">
+                        <?php if ( $the_query->have_posts() ) {
+        _e("<h1 class='title'>Search Results for: ".get_query_var('s')."</h1>"); ?>
                         <div class="details">
                             <?php
                     while ( $the_query->have_posts() ) {
