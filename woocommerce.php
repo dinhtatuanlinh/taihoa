@@ -39,6 +39,18 @@ get_header('menu');
 
         
     </div>
+    <div id="myModal" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content">
+
+    <div class="product-img">
+        <img src="https://tinhlamjw.com/wp-content/uploads/2021/01/MM-web-009.jpg" alt="">
+        <span class="close">&times;</span>
+    </div>
+</div>
+
+</div>
 </main>
 
 
