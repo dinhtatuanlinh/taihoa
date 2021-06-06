@@ -23,7 +23,7 @@
                                 'after'                => '',
                                 'link_before'          => '',
                                 'link_after'           => '',
-                                'items_wrap'           => '<ul class="header__navbar">%3$s<hr/></ul>',//%3$s tương ứng với giá trị trong cặp thẻ li đưa vào
+                                'items_wrap'           => '<ul class="header__navbar">%3$s</ul>',//%3$s tương ứng với giá trị trong cặp thẻ li đưa vào
                                 'item_spacing'         => 'preserve',
                                 'depth'                => 3,// cho phép menu hiện 2 cấp nếu bằng 0 thì hiện tất cả các cấp bằng 1 thì chỉ hiện menu cha
                                 'walker'               => '',
