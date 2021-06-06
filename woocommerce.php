@@ -23,9 +23,9 @@ get_header('menu');
     <img src="<?php echo $image; ?>" alt="">
 </div>
 <?php }; ?>
-<main class="product-detail search-page">
+<main class="product-detail <?php if(!is_singular('product')){ echo 'search-page';}; ?>">
     <div class="container">
-        
+            
             <?php
                 if ( is_singular( 'product' ) ) {
                     
